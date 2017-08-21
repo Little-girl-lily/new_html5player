@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html>
+<head>
+   <title></title>
+   <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/play.css">
+	<script type="text/javascript" src="js/play.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+ <img src="img/Lion_bg.png" class="bg_img">
+ <div class="Interface">
+    
+	<audio controls="controls">
+		<source src="audio/andy.mp3" type="audio/mpeg">
+		Your brower doesn't support the audio tag.
+	</audio>
+
+	<div class="menu">
+		<img id="menu_img" src="img/change.png" onclick="changeLyric()">
+	</div>
+	<div id="Songlist">
+		<ul id="Songs"></ul>
+		<input id="Sindex" type="hidden" name="" value=""><!--保存点击的单曲序号-->
+	</div>
+	<div id="lyric" style="display: none;">
+
+	</div>
+	<div class="foot">HTML5 播放器</div>
+	<p id="hiddenV" style="display:none;"></p>
+ </div>
+ 
+</body>
+</html>
