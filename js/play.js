@@ -6,7 +6,7 @@ var playList = [{
 	    },{
 	    title:'andy',
 	    author:'阿杜',
-	    src:'audio/andy.mp3', 
+	    src:'audio/Andy.mp3', 
 	  	lrc:'./audio/andy.lrc'
 	  },{
 	    title:'剑魂',
