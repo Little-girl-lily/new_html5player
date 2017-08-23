@@ -1,14 +1,16 @@
 	    body{
 	    	background-color: purple;
+	    	background-image: url(../img/Lion_bg.png);
+	    	background-repeat: no-repeat;
 	    	padding: 0;
 	    	margin:0;
 	    }
 		.Interface{
-			width: 350px;
-			height: 68%;
-			margin: 100px 299px;
-			border-radius: 5px;
-			border: 1px solid purple;
+			width: 90%;
+		    height: 70%;
+		    border-radius: 5px;
+		    border: 1px solid purple;
+		    margin: 0 auto;
 		}
 		audio{
 			background-color: #74CEF1;
@@ -28,6 +30,8 @@
 			overflow: hidden;
 			position:relative;
 			overflow-y:auto;
+			background-image: url(../img/lion.gif);
+			background-repeat: no-repeat;
 		}
 		.foot{
 			height: 9%;
@@ -64,7 +68,7 @@
 		    cursor: pointer;
 		}
 		.bg_img{
-			position: absolute;
+			width: 5rem;
 		}
 		.z-crt{
 			color:blue;

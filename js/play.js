@@ -156,7 +156,8 @@ function doAjaxCall(the_request)
     }  
     function DynamicLyric(__lis){
     	var lyric= document.getElementById("lyric");
-    	lyric.style.background="url(./img/cp.jpg) no-repeat"
+    	//lyric.innerHTML ="<img src='img/lion.gif'>";
+
         var audioTag = document.getElementsByTagName("audio");
         var __eul = document.createElement("ul");
         lyric.appendChild(__eul);
